@@ -1,3 +1,3 @@
 # Python-Feb
 
-Welcome to Zindua Reb Python Class
+Welcome to Zindua Feb Python Class
