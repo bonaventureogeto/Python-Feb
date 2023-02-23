@@ -58,4 +58,3 @@ lines = ['Hello, World!', 'This is a test.', 'Goodbye!', 'GEOGCS["WGS 84",DATUM[
 f = open('example.txt', 'w')
 
 f.writelines(lines)
-
