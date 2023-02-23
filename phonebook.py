@@ -42,3 +42,5 @@ def print_contacts():
     """Print all contacts in the phonebook."""
     for name, number in phonebook.items():
         print(name, number)
+
+print("Phonebook App")
