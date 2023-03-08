@@ -13,6 +13,7 @@ headings = soup.find_all('h1', class_='blog-post-card-title css-1x2fmqg')
 
 for heading in headings:
     print(heading.text)
+
     
 with open('headings.csv', 'w') as file:
     writer = csv.writer(file)

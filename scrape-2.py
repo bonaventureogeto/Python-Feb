@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.goojara.to/"
+url = "https://www.standardmedia.co.ke"
 
 reponse = requests.get(url)
 
@@ -9,8 +9,12 @@ reponse = requests.get(url)
 
 soup = BeautifulSoup(reponse.content, "html.parser")
 
-movie_titles = soup.find_all("div")
+story_titles = soup.find("div", class_="sub-title mb-2")
 
-for title in movie_titles:
-    print(title.content)
+# story_titles = story_titles.find('p')
+
+print(story_titles)
+
+# for title in story_titles:
+#     print(title.text)
 
